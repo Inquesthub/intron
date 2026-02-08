@@ -1,7 +1,7 @@
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquesthub/Celeron/refs/heads/main/daff"))()
 
 local win = ui:Create({
-    Name = "inquests's GUI (Flee The Facility)",
+    Name = "Infactory (Flee The Facility)",
     ThemeColor = Color3.fromRGB(45, 11, 11),
     ThemeGradient = Color3.fromRGB(11, 22, 66),
     StartupSound = "rbxassetid://6958727243",
@@ -15,7 +15,7 @@ local esptab = win:Tab("Visual")
 local funtab = win:Tab("Misc")
 local helptab = win:Tab("Info")
 
-maintab:Label("Script Made By inquest + 420")
+maintab:Label("Script Made By inquestor420")
 tpstab:Label("General Areas.")
 esptab:Label("Visual Features.")
 funtab:Label("Other Features.")
